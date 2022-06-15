@@ -1,0 +1,97 @@
+*{
+    background-color: black;
+  }
+
+
+  .Titulo{
+      text-align: center;
+      color: white;
+      font-size: 50px;
+  }
+
+  .error{
+    width:300px;
+    color: rgb(255, 136, 136);
+    margin:0 auto;
+    font-size: larger;
+
+  }
+
+  .formulario{
+      width:700px;
+      height:850px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      color: white;
+  }
+
+  label,p{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: larger;
+  }
+
+  input{
+      outline:none;
+      color: white;
+      border: .5px solid rgba(230, 224, 224, 0.301);
+      height:50px;
+  }
+
+  .file{
+      border:none;
+z-index: 5;
+      
+  }
+
+  textarea{
+      color:white;
+      min-width: 700px;
+      max-width: 700px;
+      min-height: 80px;
+      max-height: 80px;
+      border: .5px solid rgba(230, 224, 224, 0.301);
+
+  }
+
+  .submit{
+      margin-top: 25px;
+      width:110px;
+      height:40px;
+      border-radius: 20px;
+  }
+
+  footer{
+      margin-top: 40px;
+      text-align: center;
+      color: white;
+  }
+      
+.container{
+    margin: 0 auto;
+    width:200px;
+    height:180px;
+}
+
+  .imagen{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+  }
+
+  a{
+    margin-top: 25px;
+    width:150px;
+    height:25px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    border: .5px solid rgba(230, 224, 224, 0.301);
+    color:white; 
+    text-decoration: none; 
+}
+
+.radio{
+    color:white;
+}
